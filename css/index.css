@@ -1,0 +1,421 @@
+#bg {
+	background: url(img/bg-index.png) repeat 0 0;
+}
+
+.topbar {
+	height: 36px;
+	background: #343434 url(img/bg-topbar-v2-A.png) repeat-x 0 0;
+}
+
+.topbar-left {
+	float: left;
+	height: 36px;
+	overflow: hidden;
+}
+
+.topbar-left .logo {
+	float: left;
+	width: 186px;
+	margin-top: 4px;
+}
+
+.topbar-left .details {
+	height: 36px;
+	width: 165px;
+	float: left;
+	margin-left: 21px;
+	background: url(img/tag-header.lofter.png) no-repeat;
+}
+
+.topbar-right {
+	float: right;
+	height: 36px;
+}
+
+.topbar-right ul li {
+	position: relative;
+	float: left;
+	padding-left: 5px;
+	margin-right: 5px;
+	background: url(img/bd-topbar-v2.png) no-repeat 0 13px;
+}
+
+.topbar-right .first {
+	background: none;
+}
+
+.topbar-right ul li a {
+	float: left;
+	height: 23px;
+	line-height: 23px;
+	padding: 0 9px;
+	margin: 6px 0;
+}
+
+.topbanner {
+	position: relative;
+	height: 350px;
+	margin-top: 15px;
+}
+
+.topbanner .slier {
+	position: relative;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.topbanner .slier .ad {
+	display: inline-block;
+	position: absolute;
+	bottom: -1px;
+	left: 0px;
+	width: 31px;
+	height: 16px;
+	overflow: hidden;
+	line-height: 999px;
+	background: url(img/ad.png) no-repeat scroll right top;
+	z-index: 100;
+}
+
+.topbanner .layer {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 234px;
+	height: 350px;
+	padding-left: 32px;
+	overflow: hidden;
+	opacity: .7;
+	background: #000;
+}
+
+.topbanner .layer .ttl {
+	margin-top: 40px;
+	height: 26px;
+	line-height: 26px;
+	color: #fff;
+}
+
+.topbanner .layer .input input {
+	display: block;
+	width: 180px;
+	height: 17px;
+	line-height: 17px;
+	padding: 3px;
+	color: #333;
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: 10px;
+	background-color: #fff;
+}
+
+.topbanner .layer .user {
+	padding-top: 10px;
+	width: 190px;
+}
+
+.topbanner .layer a {
+	padding: 3px 30px;
+	float: right;
+}
+
+.topbanner .layer .login {
+	float: left;
+	background-color: #fff;
+	color: #000;
+}
+
+.topbanner .layer .unlogin {
+	padding: 2px 0 9px 0;
+	height: 16px;
+	line-height: 16px;
+	margin-top: 10px;
+	color: #fff;
+}
+
+.topbanner .layer .unlogin a {
+	padding-top: 0;
+}
+
+.topbanner .layer .line-A,
+.topbanner .layer .line-B {
+	height: 1px;
+	width: 100%;
+	line-height: 1px;
+	font-size: 0;
+	overflow: hidden;
+}
+
+.topbanner .layer .line-B {
+	background: -webkit-linear-gradient(left, transparent 0, rgba(204, 204, 204, 0.28) 20%, rgba(255, 255, 255, 0.34) 80%, transparent 100%);
+}
+
+.topbanner .layer .notice-hd {
+	margin-top: 13px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.product {
+	padding: 25px 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.product .hd a,
+.intro .hd a {
+	color: #2e75bc;
+}
+
+.product .hd a:hover,
+.intro .hd a:hover {
+	text-decoration: underline;
+}
+
+.product .server {
+	margin-top: 20px;
+}
+
+.product .server li {
+	float: left;
+	height: 70px;
+}
+
+.product .space,
+.product .unzip,
+.product .manage {
+	margin-left: 32px;
+}
+
+.product .nine {
+	background: url(img/sprites.png) no-repeat -300px -265px;
+	padding-left: 66px;
+}
+
+.product .space {
+	background: url(img/sprites.png) no-repeat 0 -184px;
+	padding-left: 70px;
+}
+
+.product .unzip {
+	background: url(img/sprites.png) no-repeat 0 -265px;
+	padding-left: 75px;
+}
+
+.product .manage {
+	background: url(img/sprites.png) no-repeat -300px -184px;
+	padding-left: 75px;
+}
+
+.product .bd .title {
+	font-size: 16px;
+	color: #4d4d4d;
+	font-family: \5FAE\8F6F\96C5\9ED1;
+	font-weight: normal;
+}
+
+.product .nine .sub-title {
+	margin-top: 6px;
+}
+
+.product .bd .sub-title {
+	line-height: 20px;
+	margin-top: 3px;
+}
+
+.lofter,
+.cloud {
+	width: 980px;
+	padding: 22px 0;
+	border-bottom: 1px solid #e0e0e0;
+	overflow: hidden;
+}
+
+.intro {
+	padding: 22px 0;
+	overflow: hidden;
+}
+
+.lofter ul {
+	height: 150px;
+	padding: 20px;
+}
+
+.lofter li {
+	float: left;
+	padding: 0 18px;
+}
+
+.cloud-main {
+	float: left;
+	position: relative;
+	padding-left: 170px;
+	height: 120px;
+	width: 590px;
+	background: url(img/sprites.png) no-repeat 0 -338px;
+}
+
+.cloud-main ul li {
+	float: left;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.cloud-main h2.title {
+	height: 27px;
+	line-height: 27px;
+	margin: 1px 0 0 46px;
+	background: url(img/sprites.png) no-repeat 0 -87px;
+}
+
+.cloud-main h3.title {
+	background: url(img/sprites.png) no-repeat -490px -135px;
+	font-size: 14px;
+	color: #666;
+	padding-left: 8px;
+	width: 156px;
+}
+
+.cloud-main p {
+	float: left;
+	width: 156px;
+	padding-left: 8px;
+}
+
+.cloud-main .arrow {
+	background: url(img/sprites.png) no-repeat 0 -124px;
+	height: 34px;
+	width: 48px;
+	position: absolute;
+	left: 155px;
+	top: 4px;
+}
+
+.cloud .ft {
+	float: right;
+	position: relative;
+	width: 219px;
+	border-left: 1px dotted #d1d1d1;
+	margin-top: 8px;
+}
+
+.cloud .ft-box {
+	float: left;
+	width: 178px;
+	border-left: 1px dotted #fff;
+	padding: 0 0 8px 38px;
+}
+
+.cloud .ft .title {
+	margin-top: 46px;
+}
+
+.cloud .ft .more {
+	width: 138px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	font-size: 18px;
+	font-family: \5FAE\8F6F\96C5\9ED1;
+	display: block;
+	margin-top: 16px;
+	margin-left: 16px;
+	background-color: #149cdb;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.cloud .ft .more-arrow {
+	float: right;
+	border-top: 6px solid #159ddd;
+	border-right: 0 none;
+	border-bottom: 6px solid #139bda;
+	border-left: 6px solid #e1f2fa;
+	display: inline;
+	margin: 16px 15px 0 5px;
+}
+
+.cloud .ft .iphone {
+	height: 50px;
+	width: 44px;
+	position: absolute;
+	left: 64px;
+	top: -10px;
+	background: url(img/sprites.png) no-repeat -110px -124px;
+}
+
+.cloud .ft .android {
+	background: url(img/sprites.png) no-repeat -58px -124px;
+	height: 48px;
+	width: 42px;
+	position: absolute;
+	left: 130px;
+	top: -10px;
+}
+
+.main-list {
+	margin-top: 18px;
+}
+
+.main-list .item {
+	height: 80px;
+}
+
+.main-list .item img {
+	float: left;
+	width: 65px;
+	height: 65px;
+}
+
+.main-list .intro {
+	float: left;
+	width: 220px;
+	overflow: hidden;
+	padding: 0;
+	margin-left: 10px;
+	border: none;
+}
+
+.main-list .intro .title {
+	color: #2e75bc;
+}
+
+.intro .title,
+.intro .desc,
+.intro .num {
+	height: 22px;
+	line-height: 22px;
+	color: #888;
+}
+
+.intro .num span {
+	display: inline-block;
+	width: 72px;
+}
+
+.sub-list {
+	width: 640px;
+	margin-top: 18px;
+}
+
+.sub-list li {
+	float: left;
+	margin: 0 0 5px 5px;
+	display: inline;
+}
+
+.footer {
+	line-height: 24px;
+	margin: 50px auto 0;
+	padding: 12px 0 25px;
+	text-align: center;
+	border-top: 1px solid #E2E2E2;
+	color: #666;
+}
+
+.footer a {
+	margin-right: 6px;
+	color: #4D4D4D;
+}
+
+.footer a:hover {
+	border-bottom: 1px solid #333;
+}
